@@ -1,5 +1,7 @@
-* Life-Buddy
-- keeps track of our daily initiatives to reach our long term goals
+* Life Buddy
+
+A smart journal which help you move towards your life goals, listen to your
+ramblings, and be a good buddy for life in general.
 
 ** Features :
 *** Settings goals
