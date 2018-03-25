@@ -1,0 +1,36 @@
+* Life-Buddy
+- keeps track of our daily initiatives to reach our long term goals
+
+** Features :
+*** Settings goals
+- App prompt user to set goals e.g financial or professional goals. Goals can
+  be:
+
+  - Yearly
+  - Monthly
+  - Weekly
+  - Daily
+
+- App prompts user on random times to set their goal with a friendly question
+  - Do not ask to set a goal if a goal for that time period is already active
+    e.g if a yearly goal is already set, remind user about that goal instead of
+    asking to set another yearly goal
+
+*** Daily Feedback
+- App prompts user to share his feelings at the end of each day with some random
+  questions
+- Goal is to encourage user to write more and more about their inner feelings
+  and emotions
+- If user had set a day goal, ask user if she's feeling as she wanted to in the
+  morning
+  - ask follow up questions about what she did right or where she lacked
+- Possible questions:
+  - How was your day today?
+  - Did you have a good day today?
+
+*** Future scope
+**** Planning for them in small steps
+**** Graphical representation of their progress towards it based on the ratings he gave himself daily
+**** app colour changes according if not app not opened tracked or in case of notifications
+**** a secret page to make a new note daily which automatically gets deleted with time
+**** a new motivational daily quote
