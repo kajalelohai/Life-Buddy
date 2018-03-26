@@ -3,7 +3,7 @@
 A smart journal which help you move towards your life goals, listen to your
 ramblings, and be a good buddy for life in general.
 
-** Features :
+** Features
 *** Settings goals
 - App prompt user to set goals e.g financial or professional goals. Goals can
   be:
@@ -18,7 +18,51 @@ ramblings, and be a good buddy for life in general.
     e.g if a yearly goal is already set, remind user about that goal instead of
     asking to set another yearly goal
 
-*** Daily Feedback
+*** Daily Feedba
+￼
+Your Orders  | 	Your Account  | 	Amazon.in
+Shipping Confirmation
+Order #407-6469206-6377925
+Hello Kajal,
+
+We thought you'd like to know that SFU E COM dispatched your item(s). Your order is on the way. If you need to return an item from this shipment or manage other orders, please visit Your Orders on Amazon.in.
+
+Arriving:
+Friday, March 30
+
+￼	Your package was sent to:
+Kajal Negi
+HNo-101 Near Bhatt Complex Sukhija Sweets
+Rampur Road
+KALADHUNGI, UTTARAKHAND 263139
+India
+
+Your package is being shipped by ATS and the tracking number is 511491855265. Please note that a signature may be required for the delivery of the package.
+
+Shipment Details
+
+￼	Ghasitaram Gifts Gold Coin Chocolates - 210 Grams
+Sold by SFU E COM	Rs.449.00
+
+Item Subtotal:	Rs.449.00
+Shipping & Handling:	Rs.0.00
+Shipment Total:	Rs.449.00
+Track your order with the Amazon App.
+If you need further assistance with your order, please visit Customer Service.
+
+We hope to see you again soon!
+Amazon.in
+
+Frequently bought together with Ghasitaram Gifts Gold Coin Choco...
+￼
+Bounty Miniatures, 150g
+Rs. 140.00
+￼
+Ausome England Chocolate (120 Pcs X 7 Grams)
+Rs. 250.00
+This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.
+
+ck
 - App prompts user to share his feelings at the end of each day with some random
   questions
 - Goal is to encourage user to write more and more about their inner feelings
@@ -36,3 +80,22 @@ ramblings, and be a good buddy for life in general.
 **** app colour changes according if not app not opened tracked or in case of notifications
 **** a secret page to make a new note daily which automatically gets deleted with time
 **** a new motivational daily quote
+
+
+* Todo
+
+** DONE Create wire-frames for asking a single question
+CLOSED: [2018-03-25 Sun 23:43]
+
+** DONE Create basic file structure for our first and only component
+CLOSED: [2018-03-27 Tue 00:17]
+- [X] Remove all code added by create-react-app
+- [X] Create:
+  - [X] =/src/views/App/index.js=
+  - [X] =/src/views/App/style.css=
+- [X] Put some simple markup and styles for App component, and make sure
+  everything is working as it should
+
+** TODO Implement the wire-frame in =App= component
+
+** TODO Implement functionality in =App= component
