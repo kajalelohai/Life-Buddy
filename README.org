@@ -53,7 +53,14 @@ CLOSED: [2018-03-27 Tue 00:17]
 - [X] Put some simple markup and styles for App component, and make sure
   everything is working as it should
 
-** TODO Implement the wire-frame in =App= component
-- [ ] When user type something, add =faded= class to =question=
+** DONE Implement the wire-frame in =App= component
+CLOSED: [2018-04-05 Thu 06:41]
+- [X] When user type something, add =faded= class to =question=
 
-** TODO Implement functionality in =App= component
+
+** DONE Implement getData function
+- [X] Return a promise which resolve with questions data
+
+** DONE Show the question from getData's result
+
+** DONE On changing the answer, update the answer of right question in state
