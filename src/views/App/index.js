@@ -1,5 +1,6 @@
 import React from 'react';
 import getData from './data';
+import selectQuestion from './selectQuestion';
 import './style.css';
 
 class App extends React.Component {
@@ -10,7 +11,6 @@ class App extends React.Component {
   componentWillMount() {
     getData()
       .then((data) => {
-        console.warn('Got questions', data);
         this.setState({ questions: data });
       })
       .catch((err) => {
@@ -37,7 +37,7 @@ class App extends React.Component {
 
   getSelectedQuestion = () => {
     // return the question which we need to show
-    return this.state.questions['1'];
+    return selectQuestion(this.state.questions);
   };
 
   render = () => {
@@ -56,11 +56,12 @@ class App extends React.Component {
     return (
       <div className="container">
         <div className={questionClass}>{question.body}</div>
-        <div className="answer">
+        <div className="answer" auto>
           <input
             id="answerId"
             className="input"
             type="text"
+            ref={(input) => input && input.focus()}
             value={answer}
             onChange={this.handleChangeAnswer}
           />
@@ -69,4 +70,5 @@ class App extends React.Component {
     );
   };
 }
+
 export default App;
